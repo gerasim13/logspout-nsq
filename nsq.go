@@ -6,9 +6,12 @@ import (
 	"regexp"
 	"strings"
 	"time"
+	
+	// "uuidgen"
+	// "gonsq"
 
-	uuidgen "code.google.com/p/go-uuid/uuid"
-	gonsq "github.com/bitly/go-nsq"
+	"code.google.com/p/go-uuid/uuid"
+	"github.com/bitly/go-nsq"
 	"github.com/gliderlabs/logspout/router"
 )
 
