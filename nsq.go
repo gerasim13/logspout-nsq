@@ -6,8 +6,7 @@ import (
 	"regexp"
 	"strings"
 	"time"
-	"gonsq"
-
+	
 	uuidgen "github.com/pborman/uuid"
 	gonsq "github.com/bitly/go-nsq"
 	"github.com/gliderlabs/logspout/router"
