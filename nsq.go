@@ -6,9 +6,6 @@ import (
 	"regexp"
 	"strings"
 	"time"
-	
-	// "uuidgen"
-	// "gonsq"
 
 	"github.com/pborman/uuid"
 	"github.com/bitly/go-nsq"
