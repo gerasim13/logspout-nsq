@@ -8,8 +8,8 @@ import (
 	"time"
 	"gonsq"
 
-	"github.com/pborman/uuid"
-	"github.com/bitly/go-nsq"
+	uuidgen "github.com/pborman/uuid"
+	gonsq "github.com/bitly/go-nsq"
 	"github.com/gliderlabs/logspout/router"
 )
 
